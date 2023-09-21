@@ -8,3 +8,14 @@ var user = {
 };
 console.log('user : ', user);
 var newUser = ['amir', 12, false];
+var person = [
+    [1, "amir"]
+];
+var newPerson = [
+    [1, 'amir']
+];
+console.log('newPerson', newPerson[0][1]);
+function nameFunction(usetName) {
+    //code
+}
+nameFunction(1);
