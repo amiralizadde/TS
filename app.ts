@@ -1,30 +1,15 @@
-let count:number = 12;
-
-let lastName:string = 'amir';
-
-let isLogin:boolean = true;
-
-let user:{id:number , name:string , lastName : string}={
+let user:{id:number , name:string }={
     id:1,
-    name:'amir',
-    lastName:"Alizade"
-}
+    name:'amir'
+} 
 
-console.log('user : ' , user);
+let person:(string | number)[] = ['amir' , 'sajad' , 'samira']
 
-let newUser:(string|number|boolean)[]=['amir' , 12 , false]
-let person:(string|number)[][]=[
-    [1 ,"amir"]
-]
+person.push(12)
 
-let newPerson:[number , string][]=[
-    [1 , 'amir']
-]
+let ary:[number , string] = [1 , 'amir']
 
-console.log('newPerson' , newPerson[0][1]);
+ary.push(12)
 
-function nameFunction(usetName:(string|number) ){
-    //code
-}
+console.log(ary);
 
-nameFunction(1)
