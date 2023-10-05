@@ -1,15 +1,11 @@
-let user:{id:number , name:string }={
+const userName:string = 'amir';
+
+let isLogin:boolean = false
+
+let user:{id:number , name:string , age:number}={
     id:1,
-    name:'amir'
-} 
+    name:"amir",
+    age:28
+}
 
-let person:(string | number)[] = ['amir' , 'sajad' , 'samira']
-
-person.push(12)
-
-let ary:[number , string] = [1 , 'amir']
-
-ary.push(12)
-
-console.log(ary);
-
+let data:[string ,number]=['amir' ,1]

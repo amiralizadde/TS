@@ -1,9 +1,8 @@
+var userName = 'amir';
+var isLogin = false;
 var user = {
     id: 1,
-    name: 'amir'
+    name: "amir",
+    age: 28
 };
-var person = ['amir', 'sajad', 'samira'];
-person.push(12);
-var ary = [1, 'amir'];
-ary.push(12);
-console.log(ary);
+var data = ['amir', 1];
