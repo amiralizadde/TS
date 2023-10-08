@@ -1,5 +1,4 @@
 // const userName:string = 'amir';
-<<<<<<< HEAD
 
 // let isLogin:boolean = false
 
@@ -62,7 +61,8 @@
 
 
 
-=======
+
+// const userName:string = 'amir';
 
 // let isLogin:boolean = false
 
@@ -82,4 +82,3 @@
 //literal type
 
 let changeVariable
->>>>>>> login
