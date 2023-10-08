@@ -16,3 +16,5 @@
 // login('amir alizade' , 1234)
 
 //literal type
+
+let changeVariable
