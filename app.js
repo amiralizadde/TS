@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+"use strict";
+>>>>>>> login
 // const userName:string = 'amir';
 // let isLogin:boolean = false
 // let user:{id:number , name:string , age:number}={
@@ -6,6 +10,7 @@
 //     age:28
 // }
 // let data:[string ,number]=['amir' ,1]
+<<<<<<< HEAD
 //----------------------------------------------------------------------learning const cast in dom 
 // syntax1 : 
 // const userName = document.querySelector('.userName') as HTMLInputElement;
@@ -35,3 +40,11 @@
 // }
 // ------------------------------------------------------learning function type
 // let testFunction:(arg1:number , arg2:string)=>string
+=======
+// function login(userName:string , password:number):boolean{
+//     return true
+// }
+// login('amir alizade' , 1234)
+//literal type
+let changeVariable;
+>>>>>>> login
