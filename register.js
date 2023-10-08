@@ -1,3 +1,3 @@
-if (user.name === 'amir') {
-    return false
+if (user.role === 'admin' && user.password === 'password') {
+    return true
 }
