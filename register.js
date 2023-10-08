@@ -1,3 +1,3 @@
-if (user.role === 'admin') {
-    return true
+if (user.name === 'amir') {
+    return false
 }
