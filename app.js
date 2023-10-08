@@ -6,13 +6,32 @@
 //     age:28
 // }
 // let data:[string ,number]=['amir' ,1]
-//learning const cast in dom 
+//----------------------------------------------------------------------learning const cast in dom 
 // syntax1 : 
-var userName = document.querySelector('.userName');
-console.log(userName.value);
+// const userName = document.querySelector('.userName') as HTMLInputElement;
+// console.log(userName.value);
 // syntax2
-var buttonElement = document.querySelector('.btn');
-console.log(buttonElement.innerHTML);
+// const buttonElement = <HTMLButtonElement>document.querySelector('.btn')
+// console.log(buttonElement.innerHTML);
 //syntax 3
-var buttonElement2 = document.querySelector('.btn');
-console.log(buttonElement.innerHTML);
+// const buttonElement2 = document.querySelector('.btn')
+// console.log((buttonElement as HTMLButtonElement).innerHTML);
+//------------------------------------------------------------------------------learning enum
+// enum Role {
+//     Admin,
+//     user,
+// }
+// const user :{
+//     name:string,
+//     role:Role,
+// }={
+//     name:'amir',
+//     role:Role.Admin
+// }
+// if (user.role === Role.Admin) {
+//     console.log('ورود به صفحه ادمین');
+// } else {
+//     console.log('مجاز به صفحه ادمین نیستید');
+// }
+// ------------------------------------------------------learning function type
+// let testFunction:(arg1:number , arg2:string)=>string
